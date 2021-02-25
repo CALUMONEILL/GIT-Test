@@ -9,4 +9,8 @@
     Private Sub btnAidansButton_Click(sender As Object, e As EventArgs) Handles btnAidansButton.Click
         MessageBox.Show("is this working???")
     End Sub
+
+    Private Sub BtnDisplay_Click(sender As Object, e As EventArgs) Handles BtnDisplay.Click
+        MessageBox.Show("Another message")
+    End Sub
 End Class
