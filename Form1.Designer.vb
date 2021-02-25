@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.btnAidansButton = New System.Windows.Forms.Button()
+        Me.BtnDisplay = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -44,11 +45,21 @@ Partial Class Form1
         Me.btnAidansButton.Text = "Aidans Button"
         Me.btnAidansButton.UseVisualStyleBackColor = True
         '
+        'BtnDisplay
+        '
+        Me.BtnDisplay.Location = New System.Drawing.Point(231, 277)
+        Me.BtnDisplay.Name = "BtnDisplay"
+        Me.BtnDisplay.Size = New System.Drawing.Size(123, 54)
+        Me.BtnDisplay.TabIndex = 2
+        Me.BtnDisplay.Text = "Display Text"
+        Me.BtnDisplay.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.BtnDisplay)
         Me.Controls.Add(Me.btnAidansButton)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
@@ -59,4 +70,5 @@ Partial Class Form1
 
     Friend WithEvents Button1 As Button
     Friend WithEvents btnAidansButton As Button
+    Friend WithEvents BtnDisplay As Button
 End Class
